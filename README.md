@@ -38,7 +38,7 @@ Ce projet a été développé en utilisant les technologies web front-end suivan
 • Meta Viewport : Configuration pour un affichage optimal sur les appareils mobiles.
 • Accessibilité (A11y) : Utilisation d'attributs aria-label, navigation au clavier (flèches, Entrée, Home, End) et structure HTML sémantique.
 
-### Fonctionnalités
+#### Fonctionnalités
 Ce site est une expérience web immersive et interactive dédiée à la découverte de l'Éthiopie. Voici les fonctionnalités implémentées :
  
 Page d'Accueil (projet.html)
@@ -136,5 +136,5 @@ Responsive & Compatibilité
 • Breakpoints : 1200px, 992px, 768px, 576px.
 • Compatibilité : Chrome, Firefox, Safari, Edge (versions récentes).
 
-### Auteur
+#### Auteur
 Étudiant en Licence Sciences de l'ingénieur.
