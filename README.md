@@ -5,7 +5,7 @@ Ce projet consiste à créer un site web
 dans le cadre de mon projet universitaire.
 
 ## Technologies utilisées
-🛠️ Technologies Utilisées - ÉthioEncyclopédie
+Technologies Utilisées - ÉthioEncyclopédie
  
 Ce projet a été développé en utilisant les technologies web front-end suivantes :
  
