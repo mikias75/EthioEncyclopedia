@@ -647,13 +647,10 @@ function setupResizeHandler() {
 
 document.addEventListener('DOMContentLoaded', () => {
     console.log('Site ÉthioEncyclopédie chargé');
-    
     // Détecter la page et initialiser les fonctions appropriées
     detectPageAndInitialize();
-    
     // Configurer le gestionnaire de redimensionnement
     setupResizeHandler();
-    
     // Ajouter une classe au body pour identifier la page
     const currentPage = window.location.pathname.split('/').pop() || 'projet.html';
     const pageName = currentPage.replace('.html', '').replace('projet', 'projet');
@@ -661,7 +658,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // ===== EXPOSER LES FONCTIONS GLOBALES SI BESOIN =====
-
 // Exposer le carousel globalement pour contrôle manuel si nécessaire
 window.initCarousel = () => new Carousel();
 window.initMusicPlayer = initMusicPlayer;
