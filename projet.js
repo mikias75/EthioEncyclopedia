@@ -1,9 +1,4 @@
-/* ============================================
-   FICHIER JAVASCRIPT UNIFIÉ POUR TOUTES LES PAGES
-   ============================================ */
-
-// ===== FONCTIONS GLOBALES (pour toutes les pages) =====
-
+// FONCTIONS GLOBALES pour toutes les pages
 /**
  * Gestion de TOUS les ancres internes
  */
@@ -27,9 +22,7 @@ function setupSmoothScroll() {
     });
 }
 
-/**
- * Animation des cartes au scroll
- */
+/*** Animation des cartes au scroll*/
 function setupScrollAnimations() {
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
@@ -78,7 +71,7 @@ function setActiveNavLink() {
     });
 }
 
-// ===== FONCTIONS POUR LA PAGE PROJET.HTML (Accueil) =====
+// ===== FONCTIONS POUR LA PAGE PROJET.HTML =====
 
 /**
  * Lecteur audio pour la section musique
