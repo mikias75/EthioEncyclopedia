@@ -1,8 +1,5 @@
-/* ============================================
-   VARIABLES ET RESET
-   ============================================ */
 :root {
-    /* Variables pour projet.html (couleurs drapeau éthiopien) */
+    /* Variables pour projet.html */
     --primary-color: #daa520; /* JAUNE éthiopien */
     --secondary-color: #078930; /* VERT éthiopien */
     --accent-color: #bd0425; /* ROUGE éthiopien */
@@ -52,11 +49,7 @@ body {
     overflow-x: hidden;
 }
 
-/* ============================================
-   STYLES GLOBAUX (commun à toutes les pages)
-   ============================================ */
-
-/* Typographie */
+/* STYLES GLOBAUX */
 h1, h2, h3, h4 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -366,11 +359,7 @@ footer {
     font-size: 0.9rem;
 }
 
-/* ============================================
-   STYLES SPÉCIFIQUES À PROJET.HTML (Accueil)
-   ============================================ */
-
-/* Introduction */
+/* STYLES SPÉCIFIQUES À PROJET.HTML */
 #introduction {
     padding-top: 40px;
 }
@@ -415,7 +404,6 @@ footer {
     width: 80px;
 }
 
-/* Cartes de sections */
 .cartes-sections {
     background-color: #f8f9fa;
     padding: 80px 0;
@@ -529,7 +517,6 @@ footer {
 .carte-section:nth-child(2) { animation-delay: 0.2s; }
 .carte-section:nth-child(3) { animation-delay: 0.3s; }
 
-/* Section Musique */
 .music-section {
     padding: 80px 0;
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
@@ -711,7 +698,6 @@ footer {
     cursor: pointer;
 }
 
-/* Playlist */
 .playlist {
     padding: 25px;
     background: white;
@@ -787,7 +773,6 @@ footer {
     font-size: 0.9rem;
 }
 
-/* Carousel */
 .carousel-section {
     padding: 80px 0;
     background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
@@ -855,7 +840,6 @@ footer {
     font-size: 1.1rem;
 }
 
-/* Contrôles du carousel */
 .carousel-controls {
     display: flex;
     align-items: center;
@@ -907,7 +891,6 @@ footer {
     background: var(--accent-color);
 }
 
-/* Bouton d'action */
 .carousel-action {
     text-align: center;
     margin-top: 40px;
@@ -925,11 +908,7 @@ footer {
     font-size: 1.2rem;
 }
 
-/* ============================================
-   STYLES SPÉCIFIQUES À HISTOIRE.HTML
-   ============================================ */
-
-/* Navbar spécifique histoire */
+/* STYLES SPÉCIFIQUES À HISTOIRE.HTML*/
 .page-histoire #header,
 .page-histoire .navbar {
     background-color: #DA121A !important;
@@ -971,7 +950,6 @@ footer {
     animation: underlinePulse 2s infinite;
 }
 
-/* Hero Histoire */
 .page-histoire .hero.histoire-hero {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), 
                 url('images/guerree.jpg');
@@ -1027,7 +1005,6 @@ footer {
     border-radius: 3px;
 }
 
-/* Grandes Figures */
 .page-histoire #grandes-figures {
     padding: 80px 0;
     background-color: white;
@@ -1111,7 +1088,6 @@ footer {
     font-size: 0.95rem;
 }
 
-/* Chronologie Interactive */
 .page-histoire #chronologie {
     background-color: #f8f9fa;
     padding: 80px 0;
@@ -1214,7 +1190,6 @@ footer {
     transition: color 0.3s ease;
 }
 
-/* Contenu des cartes */
 .timeline-content {
     background: white;
     border-radius: 20px;
@@ -1294,7 +1269,6 @@ footer {
     border: 1px solid rgba(7, 137, 48, 0.2);
 }
 
-/* Navigation */
 .timeline-navigation {
     display: flex;
     justify-content: center;
@@ -1345,7 +1319,6 @@ footer {
     color: #078930;
 }
 
-/* Section Lucy */
 .page-histoire #lucy {
     background-color: #f8f9fa;
     padding: 80px 0;
@@ -1428,7 +1401,6 @@ footer {
     margin-bottom: 20px;
 }
 
-/* Stats pour Lucy */
 .lucy-stats {
     display: flex;
     justify-content: space-between;
@@ -1539,11 +1511,7 @@ footer {
     color: #FFD700 !important;
 }
 
-/* ============================================
-   STYLES SPÉCIFIQUES À CULTURE.HTML
-   ============================================ */
-
-/* Navbar spécifique culture */
+/* STYLES SPÉCIFIQUES À CULTURE.HTML  */
 .page-culture #header {
     background: #FCDD09 !important;
 }
@@ -1575,7 +1543,6 @@ footer {
     background: var(--culture-primary);
 }
 
-/* Hero Culture */
 .page-culture .hero.culture-hero {
     background: url('images/culture.jpg') center/cover no-repeat;
     color: white;
@@ -1610,7 +1577,6 @@ footer {
     color: var(--culture-secondary);
 }
 
-/* Titres h2 culture */
 .page-culture h2 {
     color: #FCDD09 !important;
     text-align: center;
@@ -1625,7 +1591,6 @@ footer {
     width: 80px;
 }
 
-/* Ethnies Section */
 .page-culture #ethnies {
     padding: 60px 0;
     background-color: var(--culture-light);
@@ -1760,7 +1725,6 @@ footer {
     text-align: center;
 }
 
-/* Religion Section */
 .page-culture #religion {
     padding: 80px 0;
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
@@ -2112,11 +2076,7 @@ footer {
     background: var(--culture-secondary);
 }
 
-/* ============================================
-   STYLES SPÉCIFIQUES À MODERNITE.HTML
-   ============================================ */
-
-/* Navbar spécifique modernité */
+/* STYLES SPÉCIFIQUES À MODERNITE.HTML */
 .page-modernite #header {
     background: #078930 !important;
 }
@@ -2196,7 +2156,6 @@ footer {
     transform: translateY(-5px) scale(1.05);
 }
 
-/* Sections Modernité */
 .page-modernite .modernite-section {
     padding: 100px 0;
 }
@@ -2231,7 +2190,6 @@ footer {
     color: #daa520;
 }
 
-/* Introduction */
 .page-modernite #introduction {
     background: linear-gradient(135deg, #ffffff 0%, #f5f7fa 100%);
 }
@@ -2287,7 +2245,6 @@ footer {
     opacity: 0.8;
 }
 
-/* Projets Infrastructure */
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -2398,7 +2355,6 @@ footer {
     color: white;
 }
 
-/* Potentiel Économique */
 .potentiel-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -2493,7 +2449,6 @@ footer {
     margin-top: 5px;
 }
 
-/* Vision 2030 */
 .page-modernite .vision-section {
     background: white !important;
     color: white;
@@ -2633,10 +2588,7 @@ footer {
     color: #00bcd4 !important;
 }
 
-/* ============================================
-   RESPONSIVE DESIGN
-   ============================================ */
-
+/* RESPONSIVE DESIGN */
 @media (max-width: 1200px) {
     .grandes-figures-container,
     .project-grid,
@@ -2920,7 +2872,7 @@ footer {
     }
 }
 
-/* Animations supplémentaires */
+/* Animations que j'ai  */
 @keyframes fadeIn {
     from {
         opacity: 0;
