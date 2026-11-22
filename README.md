@@ -21,9 +21,9 @@ Ce projet a été développé en utilisant les technologies web front-end suivan
 • CSS Grid : Utilisé pour la disposition des cartes (ethnies, figures historiques, projets modernité).
 • Flexbox : Gestion de la barre de navigation, du footer et des éléments internes.
 • Animations et Transitions CSS :
-	• Animation de texte gradient (@keyframes gradient-text).
-	• Effets de survol (hover) sur les cartes et boutons.
-	• Transitions fluides sur les images (zoom) et les ombres.
+• Animation de texte gradient (@keyframes gradient-text).
+• Effets de survol (hover) sur les cartes et boutons.
+• Transitions fluides sur les images (zoom) et les ombres.
 • Media Queries : Design entièrement responsive (breakpoints à 1200px, 992px, 768px et 576px).
 • Background Blend Mode & Linear Gradients : Utilisés sur la section Hero pour mixer les couleurs du drapeau éthiopien avec l'image de fond. 
 4. Fonctionnalités JavaScript natives (Vanilla JS)
@@ -38,10 +38,10 @@ Ce projet a été développé en utilisant les technologies web front-end suivan
 • Meta Viewport : Configuration pour un affichage optimal sur les appareils mobiles.
 • Accessibilité (A11y) : Utilisation d'attributs aria-label, navigation au clavier (flèches, Entrée, Home, End) et structure HTML sémantique.
 
-## Fonctionnalités
+### Fonctionnalités
 Ce site est une expérience web immersive et interactive dédiée à la découverte de l'Éthiopie. Voici les fonctionnalités implémentées :
  
-🏠 Page d'Accueil (projet.html)
+Page d'Accueil (projet.html)
  
 1. Lecteur Audio "Ethio-Jazz" Personnalisé
 • Lecture/Pause : Contrôle total de la piste audio (Mulatu Astatke).
@@ -62,7 +62,7 @@ Ce site est une expérience web immersive et interactive dédiée à la découve
 • Cartes interactives : Effet de "lift" (élévation) et zoom sur les images au survol.
 • Scroll fluide : Navigation douce vers les sections internes. 
  
-📜 Page Histoire (histoire.html)
+Page Histoire (histoire.html)
  
 1. Chronologie Interactive (Timeline)
 • 10 points clés : De l'alphabet Guèze à la construction du Barrage de la Renaissance.
@@ -78,7 +78,7 @@ Ce site est une expérience web immersive et interactive dédiée à la découve
 • Galeries comparatives : Images de Lucy et du site de Hadar avec overlay textuel au survol.
 • Statistiques visuelles : Affichage clair des données (40% de squelette, 1,10m, 25kg). 
  
-🎭 Page Culture (culture.html)
+Page Culture (culture.html)
  
 1. Cartes des Groupes Ethniques
 • Badges de population : Pourcentages affichés directement sur les images (Oromo 34%, Amhara 27%, etc.).
@@ -97,7 +97,7 @@ Ce site est une expérience web immersive et interactive dédiée à la découve
 • Tooltips : Info-bulles qui apparaissent au survol des tags (via JS).
 • Animation Pulse : Le bouton "Commencer l'exploration" pulse en continu. 
  
-🏙️ Page Modernité (modernite.html)
+Page Modernité (modernite.html)
  
 1. Statistiques Animées
 • Cartes de chiffres clés : Affichage des données démographiques et économiques.
@@ -110,7 +110,7 @@ Ce site est une expérience web immersive et interactive dédiée à la découve
 • Timeline verticale : Étapes clés du développement avec années encerclées.
 • Citation inspirante : Blockquote stylisée avec icône de citation. 
  
-🌐 Fonctionnalités Globales (Toutes les pages)
+Fonctionnalités Globales (Toutes les pages)
  
 1. Navigation
 • Header fixe : Reste en haut de l'écran lors du défilement.
@@ -131,10 +131,10 @@ Ce site est une expérience web immersive et interactive dédiée à la découve
 • Images optimisées : Utilisation de formats web (.webp, .jpg).
 • Animations GPU : Utilisation de transform et opacity pour des animations fluides. 
  
-📱 Responsive & Compatibilité
+Responsive & Compatibilité
 • Mobile-first : Adaptation des grilles et des tailles de police.
 • Breakpoints : 1200px, 992px, 768px, 576px.
 • Compatibilité : Chrome, Firefox, Safari, Edge (versions récentes).
 
-## Auteur
+### Auteur
 Étudiant en Licence Sciences de l'ingénieur.
